@@ -14,9 +14,8 @@ class Plane:
 				 Rect=Rectangle("Rect", Point_2D("A", 0,0),Point_2D("B",1,1))):
         self.name=name
         self.rectangle=Rect
-        var_temp1, var_temp2 = Rect.corner1.x, Rect.corner2.x
-        print(var_temp1, var_temp2)
-        self.w = abs(var_temp1 - var_temp2)
+
+        self.w = abs(Rect.corner1.x - Rect.corner2.x)
         self.l= abs(Rect.corner1.y - Rect.corner2.y)
 		
     def __str__(self):
