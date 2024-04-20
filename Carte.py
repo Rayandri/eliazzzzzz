@@ -16,12 +16,12 @@ class Carte:
         self.system=system
         
     def matrix(self):
-        X = np.zeros((self.system.plan.w + 1, self.system.plan.h + 1))	
+        X = np.zeros((self.system.plane.w + 1, self.system.plane.l + 1))	
         Imax=0
         I = 0
-        for i in range (self.system.plan.w + 1):
-            for j in range (self.system.plan.h + 1):
-                I = self.system.eclairement(Point_3D(f"Point({i}, {j})", i, j, 0))
+        for i in range (self.system.plane.w + 1):
+            for j in range (self.system.plane.l + 1):
+                I = self.system.eclairement(Point_3D.Point_3D(f"Point({i}, {j})", i, j, 0))
                 X[i][j]= I
                 print(I)
                 if I > Imax : 

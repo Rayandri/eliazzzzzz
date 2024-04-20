@@ -29,6 +29,7 @@ def Obstacle_Rectangulaire_Parallele(corner1=Point2D.Point_2D("A", 0, 0),
             L.append((x, y, height))
     return L
 
+
 # %%
 CARTE4 = Carte("C4",
                System("sys4",
@@ -77,6 +78,8 @@ if __name__ == '__main__':
     print(Rectangle2)
 
     print(Rectangle2.perimeter())
+    
+    
 
 # %%
 
@@ -91,3 +94,5 @@ if __name__ == '__main__':
     print(Plan2)
 
     print(Plan2.perimeter())
+
+    showcarte(CARTE4)
