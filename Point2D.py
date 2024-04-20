@@ -9,9 +9,9 @@ class Point_2D:
     """object class Point_2D
     """
     def __init__(self,
-				 x:int,
-				 y:int,
-				 name='Point'):
+                 name='Point',
+				 x:int=-1,
+				 y:int=-1):
         self.name = name
         self.x = x
         self.y = y

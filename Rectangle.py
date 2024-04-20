@@ -4,7 +4,7 @@ Created on Mon Feb 26 11:38:49 2024
 
 @author: Aëlias
 """
-from Point_2D import Point_2D
+from Point2D import Point_2D
 
 class Rectangle :
     """ object class Rectangle

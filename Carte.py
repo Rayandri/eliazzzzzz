@@ -11,7 +11,7 @@ import Point_3D
 class Carte:
     def __init__ (self,
 				  name = "Carte0",
-				  system = System()):
+				  system = System.System()):
         self.name=name
         self.system=system
         

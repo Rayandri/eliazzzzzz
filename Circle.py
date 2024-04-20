@@ -5,7 +5,7 @@ Created on Mon Feb 26 12:10:47 2024
 @author: Aëlias
 """
 import numpy as np
-from Point_2D import Point_2D
+from Point2D import Point_2D
 
 class Circle :
     

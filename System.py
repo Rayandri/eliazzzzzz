@@ -15,8 +15,8 @@ class System:
     
     def __init__(self,
 				 name="system0",
-				 sources = [Source()],
-				 plane = Plane(),
+				 sources = [Source.Source()],
+				 plane = Plane.Plane(),
 				 obstacles = []):
         self.name=name
         self.sources=sources
